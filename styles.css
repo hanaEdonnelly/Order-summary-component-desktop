@@ -1,0 +1,107 @@
+body,html {
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body {
+    background-color: hsl(225, 100%, 94%); 
+    background-image: url('images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    background-size: 100%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+#card {
+    margin: auto;
+    margin-top: 45px;
+    width: 450px;
+    background-color: white;
+    box-shadow: 0 10px 10px -10px hsl(224, 23%, 55%);
+    border-radius: 1em;
+    padding-bottom: 10px;
+    margin-bottom: 45px;
+}
+
+#card img {
+    width: 100%;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+
+#card-text {
+    padding: 0 25px;
+    text-align: center;
+}
+
+#card p {
+    color: hsl(224, 23%, 55%);
+    font-size: 14pt;
+    line-height: 1.6;
+    flex-wrap: wrap;
+}
+
+#card-payment {
+    margin: auto;
+    width: 75%;
+    padding: 0 20px;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 1em;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+#card-payment img {
+    width: 50px;
+    /*flex-grow: 1;*/
+}
+
+#card-payment > div {
+    text-align: left;
+    flex-grow: 3;
+}
+
+#card-payment a {
+    color:hsl(245, 75%, 52%);
+    font-weight: bold;
+    flex-grow: 1;
+    text-align: center;
+}
+
+#card-payment a:hover {
+    color: hsl(245, 74%, 62%);
+}
+
+#proceed {
+    font-family: inherit;
+    font-weight: bold;
+    font-size: .9em;
+    width: 85%;
+    display: block;
+    margin: 25px auto 25px;
+    border: 0;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    border-radius: 10px;
+    padding: 15px 20px;
+    box-shadow: 0 10px 8px -8px hsl(224, 23%, 55%);
+}
+
+#proceed:hover {
+    background-color: hsl(245, 74%, 62%);
+}
+
+#cancel {
+    color: hsl(224, 23%, 55%);
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+}
+
+#cancel:hover {
+    color: black;
+}
